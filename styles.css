@@ -51,8 +51,8 @@ body {
 .main-content > img {
     width: 400px; 
     height: 250px; 
-    /*object-fit: cover;
-    object-position: 50% 60%;*/
+    object-fit: cover;
+    object-position: 50% 60%;
 }
 
 .main-text > h1 {
@@ -75,6 +75,47 @@ body {
     border:none;
     border-radius: 2px;
     padding: 4px 16px;
+}
+
+.container2 {
+    padding: 0px 100px;
+    padding-bottom: 75px;
+}
+
+.container2 > h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 50px 0px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.info {
+    max-width: 175px;
+    text-align: center;
+}
+
+.info > p {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0px;
+}
+
+.info > img {
+    width: 175px; 
+    height: 175px; 
+    object-fit: cover;
+    object-position: 50% 25%;
+    border: 7px solid #3882F6;
+    border-radius: 20px;
 }
 
 li {
