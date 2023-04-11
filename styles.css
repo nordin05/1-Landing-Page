@@ -7,6 +7,13 @@ body {
     background-color: #1F2937;
     padding: 15px 100px;
     padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.center {
+    width: 900px;
 }
 
 .header {
@@ -48,6 +55,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    gap: 50px
 }
 
 .main-text {
@@ -55,7 +63,6 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 50px;
 }
 
 .main-content > img {
@@ -153,3 +160,5 @@ ul {
     font-size: 28px;
     font-weight: 800;
 }
+
+
