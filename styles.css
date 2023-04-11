@@ -162,4 +162,44 @@ ul {
     font-weight: 800;
 }
 
+.container4 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px;
+}
 
+.signup-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 150px;
+    border-radius: 10px;
+    padding: 45px 135px;
+}
+
+.signup-text > h1 {
+    color: #F9FAF8;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.signup-text > p {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.signup-box > button {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 110px;
+    height: 35px;
+}
